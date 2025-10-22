@@ -1,13 +1,81 @@
-title: Шаблон проекта документации
+title: Корпоративное хранилище данных ВкусВилл
 href: index.yaml
-items: 
-  - name: О проекте
-    href: about.md
-  - name: Дополнительная страница
-    href: page.md
-  - name: Другая страница
-    href: anotherpage.md
-  - name: Подраздел
-    include:
-      path: sub-section/toc.yaml
-      mode: link
+items:
+  - name: DWH ВкусВилл
+    items:
+      - name: Что такое DWH?
+        href: about/about_dwh.md
+      - name: Ценность DWH
+        href: about/dwh_value.md
+      - name: Источники данных DWH
+        href: about/dwh_sources.md
+      - name: Потребители данных DWH
+        href: about/dwh_consumers.md
+      - name: Команда DWH
+        href: about/dwh_team.md
+  - name: Пользовательская документация
+    items:
+      - name: Вся пользовательская документация
+        href: users/index.md
+      - name: Как найти данные?
+        href: users/data_search.md
+      - name: Запросить новые данные
+        href: users/new_data.md
+      - name: Сообщить о проблеме
+        href: users/new_issue.md
+  - name: Техническая документация
+    items:
+      - name: Архитектура
+        items:
+          - name: Все архитектурные документы
+            href: arch/index.md
+          - name: Местоположение DWH
+            href: arch/context.md
+          - name: Функциональность DWH
+            href: arch/functional.md
+          - name: Слои данных
+            href: arch/information.md
+          - name: Процесс разработки
+            href: arch/delivery.md
+      - name: Системный анализ
+        items:
+          - name: Все документы системного анализа
+            href: sa/index.md
+      - name: Разработка
+        items:
+          - name: Все документы разработки
+            href: dev/index.md
+          - name: Пакетная обработка данных
+            items:
+                - name: Все документы пакетной обработки
+                  href: dev/batch/index.md
+                - name: Что такое пакетная обработка данных
+                  href: dev/batch/batch.md
+                - name: Процесс разработки
+                  href: dev/batch/batch_dev_process.md
+                - name: Полезные ресурсы
+                  href: dev/batch/resources.md
+          - name: Потоковая обработка данных
+            items:
+              - name: Все документы потоковой обработки
+                href: dev/stream/index.md
+              - name: Что такое потоковая обработка данных
+                href: dev/stream/stream.md
+              - name: Процесс разработки
+                href: dev/stream/stream_dev_process.md
+              - name: Полезные ресурсы
+                href: dev/stream/resources.md
+          - name: Разработка технических сервисов
+            items:
+              - name: Все документы потоковой обработки
+                href: dev/service/index.md
+              - name: Сервисы платформы данных DWH
+                href: dev/service/services.md
+              - name: Процесс разработки
+                href: dev/service/service_dev_process.md
+              - name: Полезные ресурсы
+                href: dev/service/resources.md
+      - name: Администрирование
+        href: adm/deployment.md
+      - name: Поддержка
+        href: supp/index.md
