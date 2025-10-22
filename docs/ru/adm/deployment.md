@@ -1,1 +1,1 @@
-![image](../_assets/adm/test.svg)
+![image](../_assets/adm/test.svg){inline=false}
