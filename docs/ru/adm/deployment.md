@@ -4,4 +4,5 @@ description: Страница содержит диаграмму разверт
 ---
 
 # Диаграмма развертывания DWH
-![image](../_assets/adm/test.svg){inline=false}
+![image](../_assets/adm/test2.svg)
+<small>\* deprecated</small>
