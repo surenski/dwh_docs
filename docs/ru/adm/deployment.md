@@ -1,1 +1,1 @@
-<img src="_assets/adm/prod_deployment.svg"/>
+![image](../../_assets/adm/prod_deployment.svg)
